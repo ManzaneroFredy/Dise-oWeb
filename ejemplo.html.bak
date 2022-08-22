@@ -20,21 +20,9 @@
 				<td>Nombre</td>
 				<td>Apellido</td>
 			</tr>
-			<tr>
-				<td>12345</td>
-				<td>Ignacio</td>
-				<td>Solis</td>
-			</tr>
-			<tr>
-				<td>24567</td>
-				<td>Juan</td>
-				<td>Pérez</td>
-			</tr>
-			<tr>
-				<td>45678</td>
-				<td>Celia</td>
-				<td>Suárez</td>
-			</tr>
+			<tr>12345</tr>
+			<tr>67890</tr>
+			<tr>54321</tr>
 		</table>
 		<h2> Tema 2: CSS<h2>
 	</body>
