@@ -9,21 +9,40 @@
 		</ul>
 		
 		<font size=7 color='blue' face='arial'> Otra linea de texto</font>
-		<img src = 'https://es.uadyvirtual.uady.mx/pluginfile.php/480073/user/icon/fordson/f1?rev=9617369' height='960' width='960'/> 
+		
 		<p> Link para ir a otra pagina</p>
 		<a href='https://es.uadyvirtual.uady.mx/user/profile.php?id=24661'> pagina UADY</a>
 
 		</br>
-		<table>
-			<tr>
-				<td>Matricula</td>
-				<td>Nombre</td>
-				<td>Apellido</td>
+		<table border = 3 cellspacing = 7 align = center>
+			<caption>Tabla nombres ramndom</caption>
+			<tr bgcolor="gray">
+				<th>Matricula</th>
+				<th>Nombre</th>
+				<th>Apellido</th>
 			</tr>
-			<tr>12345</tr>
-			<tr>67890</tr>
-			<tr>54321</tr>
+			<tr>
+				<td>12345</td>
+				<td>Ignacio</td>
+				<td>Solis</td>
+			</tr>
+			<tr>
+				<td>24567</td>
+				<td>Juan</td>
+				<td>Pérez</td>
+			</tr>
+			<tr>
+				<td>45678</td>
+				<td>Celia</td>
+				<td>Suárez</td>
+			</tr>
 		</table>
-		<h2> Tema 2: CSS<h2>
+		<h2> Formularios con HTML<h2>
+		
+		<form>
+			<p>Nombre <input type = "text"/></p>
+			<input type = "submit" id = enviar/>
+			
+		</form>
 	</body>
 </html>
