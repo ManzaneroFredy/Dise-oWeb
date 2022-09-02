@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1> Aprediendo formularios</h1>
+    <h2> Datos del alumno</h2>
+
+
+    <form>
+        <label for="Matricula">Matricula</label> <input = "text"/> </br>
+        nombre <input = "text"/></br>
+        <label for="universidad">¿Por qué seleccionaste esta universidad?</label></br>
+        
+        <fieldset>
+            <textarea name="seleccion" id="seleccion"></textarea></br>
+        <label for="estudios">Selecciona tu nivel de estudios</label></br>
+        <label for="primaria"><input type="checkbox" name="estudios" id="primaria"/> Primaria </br></label>
+        <label for="secundaria"><input type="checkbox" name="estudios" id="primaria"/> Secundaria </br></label>
+        <label for="preparatoria"><input type="checkbox" name="estudios" id="primaria"/> Preparatoria </br></label>
+
+        </fieldset>
+        
+        Ingresos Mensuales en la familia </br>
+        <input type="radio" name="Ingresos" id="ingresos1"/> Menos de $5000.00</br>
+        <input type="radio" name="Ingresos" id="ingresos1"/> de $5000.00 a $10000.00</br>
+        <input type="radio" name="Ingresos" id="ingresos1"/> más de $10000.00</br>
+        <label for="nacimiento">Lugar de nacimiento: </br></label>
+        <select name="nacimiento" id="nacimiento">
+            <option>Yucatán</option>
+            <option>Campeche</option>
+            <option>Quintana Roo</option>
+            <option>Veracruz</option>
+
+        </select></br></br>
+        <input type="submit" name="enviar" id="enviar" value="Guardar encuesta"/>
+        <input type ="submit" name="limpiar" id="limpiar" value="reiniciar encuesta"
+    </form>
+</body>
+</html>
