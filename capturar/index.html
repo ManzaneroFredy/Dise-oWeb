@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capturar Alumnos</title>
+</head>
+<body>
+    <form id="alumno" name="alumno" >
+        <pre>
+            Matricula: <input type="text" id="matricula" name="matricula"/>
+            
+            Nombre: <input type="text" id="nombre" name="nombre"/>
+            
+            Apellido: <input type="text" id="apellido" name="apellido"/>
+             
+        </pre>
+        
+        <input type="submit" value="guardar" id="button" onclick="return validar()"/>
+        <p></p>
+        <input type="button" value="Guardar cookie" id="crear"/>
+        <p></p>
+        <input type="button" id="ver" value="Ver cookie"/>
+        <p></p>
+        <input type="button" id="delete-cookie" value="Eliminar cookie">
+
+    </form>
+    
+
+    <script src="scripts.js"></script>
+</body> 
+</html>

@@ -1,8 +1,9 @@
 <html>
 	<head>
 		<title> Ejemplo </title>
+		<link rel="stylesheet" href="style.css"></link>
 	</head>
-	<body>
+	<body style="background: yellow">
 		<p>Mi primera pagina web</p>
 		<ull>
 			<li>Hola</li>
@@ -44,7 +45,98 @@
 			<input type = "submit" id = enviar/>
 			
 		</form>
+
+
+
+		<h2>CSS</h2>
+		<p style="color:aquamarine"> Texto con color puesto con CSS</p>
+		<p>Esta interesante esto</p>
 		
+		<style type="text/CSS">
+
+			body{
+				background-color: yellow;
+				padding:0;
+				margin: 0;
+			}
+
+			p{
+				color:aquamarine;
+				font-family: 'Times New Roman', Times, serif;
+			}
+			
+			#caja1{
+				background-image: url(https://static.wikia.nocookie.net/memes-pedia/images/9/97/Doge.jpg/revision/latest/top-crop/width/360/height/360?cb=20220608030217&path-prefix=es);
+				background-repeat: no-repeat;
+				background-position: bottom left;
+				border: solid blue;
+			}
+
+			#caja2{
+				background-image: url(https://static.wikia.nocookie.net/memes-pedia/images/9/97/Doge.jpg/revision/latest/top-crop/width/360/height/360?cb=20220608030217&path-prefix=es);
+				background-repeat: no-repeat;
+				background-position: right top;
+				border: solid blue;
+			}
+			
+			#caja3{
+				background-image: url(https://static.wikia.nocookie.net/memes-pedia/images/9/97/Doge.jpg/revision/latest/top-crop/width/360/height/360?cb=20220608030217&path-prefix=es);
+				background-repeat: no-repeat;
+				background-position: 50% 50%;
+				border: solid blue;
+			}
+
+			div{
+				width: 20%;
+				background-color: #FFFFFF;
+				padding: 10px;
+				border: 1px soldi #000000;
+				margin: 5px;
+			}
+			
+			#otro{
+				position: relative;
+				top:20px;
+				left: 20px;
+				background-color: #00CCFF;
+			}
+
+			#POSabsolute{
+				position:absolute;
+				background-color: darkorchid;
+			}
+
+			#POSFlotante{
+				float:right;
+			}
+		</style>
+
+		<h2>Modelo de caja</h2>
+		<div id="caja1"><h1>bottom left</h1></div>
+		<div id="caja2"><h1>right top</h1></div>
+		<div id="caja3"><h1>50 % 50%</h1></div>
+
+		<h1>Posicionamiento normal</h1>
+		<div><h1>Caja 1</h1></div>
+		<div><h1>Caja 2</h1></div>
+		<div><h1>Caja 3</h1></div>
+		
+		<h2>Posicionamiento normal con posiciones relativas</h2>
+		<div id="otro"><h1>Caja 1</h1></div>
+		<div><h1>Caja 2</h1></div>
+		<div><h1>Caja 3</h1></div>
+		
+
+		<h2>Posicionamiento normal con posiciones absolutas</h2>
+		<div id="POSabsolute"><h1>Caja 1</h1></div>
+		<div><h1>Caja 2</h1></div>
+		<div><h1>Caja 3</h1></div>
+
+		<h2>Posicionamiento normal con posiciones flotantes</h2>
+		<div id="POSFlotante"><h1>Caja 1</h1></div>
+		<div id="POSFlotante"><h1>Caja 2</h1></div>
+		<div id="POSFlotante"><h1>Caja 3</h1></div>
+
 		<script>
 		 const input = Document.getElementById("enviar");
 		 
